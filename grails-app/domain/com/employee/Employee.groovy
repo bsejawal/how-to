@@ -11,6 +11,7 @@ class Employee {
     String workDept
     String edLevel
     double monthlySalary
+    String image
 
 
     static hasMany = [experience:Exception, academicQuilification:AcademicQualification]
