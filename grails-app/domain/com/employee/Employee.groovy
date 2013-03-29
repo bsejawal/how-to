@@ -4,14 +4,17 @@ class Employee {
     String firstName
     String middleName
     String familyName
+    String title
+    String currentAddress
+    String permanentAddress
     String gender
     Date dob
     String phoneNo
     Date hiredDate
     String workDept
-    String edLevel
     double monthlySalary
     String image
+    Employee supervisor
 
 
     static hasMany = [experience:Exception, academicQuilification:AcademicQualification]
