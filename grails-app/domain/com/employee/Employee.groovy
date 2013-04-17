@@ -10,10 +10,9 @@ class Employee {
     String gender
     Date dob
     String phoneNo
-    Date hiredDate
-    String workDept
+    Department department
     double monthlySalary
-    String image
+    String photo
     Employee supervisor
 
 

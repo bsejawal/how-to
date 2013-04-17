@@ -16,7 +16,7 @@ class Company {
     String image
     Company company
 
-    static hasMany = [employee:Employee,company:Company]
+    static hasMany = [employee:Employee,company:Company, department:Department]
 
 
     static constraints = {
