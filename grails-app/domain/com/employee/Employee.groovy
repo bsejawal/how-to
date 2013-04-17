@@ -17,8 +17,8 @@ class Employee {
     Employee supervisor
 
 
-    static hasMany = [experience:Exception, academicQuilification:Education]
-    static hasOne = [organization:Organization, company:Company, branch:Branch]
+    static hasMany = [experience:Exception, education:Education]
+    static hasOne = [company:Company]
 
     static constraints = {
     }

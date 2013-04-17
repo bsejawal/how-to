@@ -14,8 +14,9 @@ class Company {
     String web
     String email
     String image
+    Company company
 
-    static hasMany = [employee:Employee]
+    static hasMany = [employee:Employee,company:Company]
 
 
     static constraints = {
