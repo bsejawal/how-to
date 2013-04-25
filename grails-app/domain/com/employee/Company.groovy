@@ -9,7 +9,6 @@ class Company {
     String city
     String country
     String phone1
-    String phone2
     String fax
     String web
     String email
