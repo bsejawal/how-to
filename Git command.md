@@ -1,3 +1,4 @@
+```
 git status
 git clone <repo url>
 git pull
@@ -22,3 +23,4 @@ git remote
 git reset
 git reset --hard
 git diff
+```
