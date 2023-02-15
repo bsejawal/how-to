@@ -1,4 +1,4 @@
-In linux get already running port's process and kill
+In linux get already running port's process and kill in unix
 
 1. How to find process by port
 ```
