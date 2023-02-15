@@ -23,4 +23,6 @@ git remote
 git reset
 git reset --hard
 git diff
+git branch -d <branch name>
+git branch -D <branch name> // forcefully delete branch
 ```
