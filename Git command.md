@@ -26,3 +26,21 @@ git diff
 git branch -d <branch name>
 git branch -D <branch name> // forcefully delete branch
 ```
+
+## git stash
+Stash the changes in a dirty working directory away
+```
+  git stash
+```
+Clear all stashes at once
+```
+  git stash clear
+```
+List all stashes
+```
+  git stash list
+```
+delete specific stash
+```
+  git stash drop stash@{index}
+```
