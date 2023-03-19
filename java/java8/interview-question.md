@@ -1,4 +1,4 @@
-1. How to find Nth highest salary from a list of employee
+1. Prnt the name of the employee whose salary is top Nth highest from a list of employee
    ```java
 
        List<Employee> employees = new ArrayList<>();
