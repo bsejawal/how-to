@@ -1,7 +1,7 @@
 1. How to find Nth highest salary from a list of employee
    ```java
 
-List<Employee> employees = new ArrayList<>();
+       List<Employee> employees = new ArrayList<>();
 
        employees.add(new Employee("emp1", 80000));
        employees.add(new Employee("emp2", 100000));
