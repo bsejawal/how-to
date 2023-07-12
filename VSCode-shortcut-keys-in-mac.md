@@ -10,3 +10,4 @@
 | 7 | Navigate forward | **control** + **⇧** + **- (minus)** |
 | 8 | Duplicate a line | **⇧** + **⌥** + **up/down arrow** |
 | 9 | Remove unused import | **⌥** + **⇧** + **O** |
+| 10 | Generate functional component snippet in React | ***rfce*** and ***Enter*** 
