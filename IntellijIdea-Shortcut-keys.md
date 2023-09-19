@@ -13,3 +13,4 @@
 | 10 | Extract to the method | select all the code to extract and <br /> **⌘** + **⌥** + **M** | select all the code to extract and <br /> **ctrl** + **alt** + **M**  |
 | 11 | Duplicate line | **⌘** + **D** | **ctrl** + **D** |
 | 12 | Remove unused imports | **^** + **⌥** + **O** | **Ctrl** + **Alt**+**O** |
+| 13 | Reformat Code | **⌥** + **⌘** + **L** | |
