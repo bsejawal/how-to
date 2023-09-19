@@ -1,4 +1,4 @@
-# Intellij Idea keyboard short-cut key cheat sheet
+# Intellij Idea keyboard short-cut cheat sheet
 | SN | Description | Mac Command | Windows Command |
 | -- | ----------- | ----------- | --------------- |
 | 1 | go to class | **⌘** + **O** | **ctrl** + **N** |
