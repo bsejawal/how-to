@@ -1,4 +1,10 @@
 # Intellij Idea keyboard short-cut cheat sheet
+Mac key and their symbol
+- **⌘** command
+- **⇧** shift
+- **^** control
+- **⌥** option
+
 | SN | Description | Mac Command | Windows Command |
 | -- | ----------- | ----------- | --------------- |
 | 1 | go to class | **⌘** + **O** | **ctrl** + **N** |
