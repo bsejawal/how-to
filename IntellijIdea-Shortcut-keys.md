@@ -20,3 +20,4 @@ Mac key and their symbol
 | 11 | Duplicate line | **cmd(⌘)** + **D** | **ctrl** + **D** |
 | 12 | Remove unused imports | **ctrl(^)** + **option(⌥)** + **O** | **Ctrl** + **Alt**+**O** |
 | 13 | Reformat Code | **option(⌥)** + **cmd(⌘)** + **L** | |
+| 14 | Call hirarchy | **ctrl(^)** + **option(⌥)** + **H** | |
