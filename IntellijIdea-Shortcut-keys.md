@@ -21,4 +21,4 @@ Mac key and their symbol
 | 12 | Remove unused imports | **ctrl(^)** + **option(⌥)** + **O** | **Ctrl** + **Alt**+**O** |
 | 13 | Reformat Code | **option(⌥)** + **cmd(⌘)** + **L** | |
 | 14 | Call hirarchy | **ctrl(^)** + **option(⌥)** + **H** | |
-| 15 | Column Selection Mode (Verticle Selection) | **shift(⇧)** + **cmd(⌘)** + **8**  | |
+| 15 | Column Selection Mode (Vertical Selection) | **shift(⇧)** + **cmd(⌘)** + **8**  | |
