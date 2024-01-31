@@ -1,4 +1,5 @@
 
+### Mac Shortcut Key
 | SN | Description | Shortcut Key | Note |
 | -- | ----------- | ----------- | --------------- |
 | 1 | Exit Full-Screen Mode | **ctrl(^)** + **cmd(⌘)** + **F** |  |
