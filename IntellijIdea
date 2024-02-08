@@ -23,3 +23,9 @@ Mac key and their symbol
 | 14 | Call hirarchy | **ctrl(^)** + **option(⌥)** + **H** | |
 | 15 | Column Selection Mode (Vertical Selection) | **shift(⇧)** + **cmd(⌘)** + **8**  | |
 | 16 | Go to a particular line number  | **cmd(⌘)** + **L**  | |
+
+### Code With Me
+#### How to Start
+- Toos -> Code With Me -> Start Session... -> Star Session
+#### How to End
+- Toos -> Code With Me -> End Session
