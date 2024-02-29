@@ -22,7 +22,7 @@ Mac key and their symbol
 | 13 | Reformat Code | **option(⌥)** + **cmd(⌘)** + **L** | |
 | 14 | Call hirarchy | **ctrl(^)** + **option(⌥)** + **H** | |
 | 15 | Column Selection Mode (Vertical Selection) | **shift(⇧)** + **cmd(⌘)** + **8**  | |
-| 16 | Go to a particular line number  | **cmd(⌘)** + **L**  | |
+| 16 | Go to a line number  | **cmd(⌘)** + **L**  | |
 
 ### Code With Me
 #### How to Start
