@@ -1,4 +1,13 @@
 
+## Flycut (Clipboard manager)
+Flycut allows multiple entries on the clipboard. With Homebrew installed:
+
+brew install --cask flycut
+Configuration
+Open Flycut -> Preferences
+Check Sticky Bezel
+Check Launch Flycut on login
+
 ### Mac Shortcut Key
 | SN | Description | Shortcut Key | Note |
 | -- | ----------- | ----------- | --------------- |
