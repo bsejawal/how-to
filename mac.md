@@ -3,7 +3,7 @@
 Flycut allows multiple entries on the clipboard. With Homebrew installed:
 
 - brew install --cask flycut
-### Configuration
+##### Configuration
 - Open Flycut -> Preferences
 - Check Sticky Bezel
 - Check Launch Flycut on login
