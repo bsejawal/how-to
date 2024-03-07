@@ -1,13 +1,21 @@
 
 ## Flycut (Clipboard manager)
-Flycut allows multiple entries on the clipboard. With Homebrew installed:
+Flycut allows multiple entries on the clipboard.
 
+#### Install with Homebrew
 - brew install --cask flycut
 ##### Configuration
 - Open "System Setting" in Mac -> Privacy & Security -> Accessibility -> enable "Flycut" (You may have to have admin access)
 - Open Flycut -> Preferences
   - Check Sticky Bezel
   - Check Launch Flycut on login
+#### Basics
+- Copy the same way as always.
+- Paste the same way as always.
+- Press the Main Hotkey (Shift-Command-v, by default) to access your clipboard history. Or just use the Flycut menu (that little red locker, like the one you see above.
+
+ 
+
 
 ### Mac Shortcut Key
 | SN | Description | Shortcut Key | Note |
