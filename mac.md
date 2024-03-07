@@ -4,7 +4,7 @@ Flycut allows multiple entries on the clipboard. With Homebrew installed:
 
 - brew install --cask flycut
 ##### Configuration
-- Open "System Setting" in Mac -> Privacy & Security -> Accessibility -> enable "Flycut" (You may have to enter admin access)
+- Open "System Setting" in Mac -> Privacy & Security -> Accessibility -> enable "Flycut" (You may have to have admin access)
 - Open Flycut -> Preferences
   - Check Sticky Bezel
   - Check Launch Flycut on login
