@@ -10,9 +10,9 @@ Flycut allows multiple entries on the clipboard.
   - Check Sticky Bezel
   - Check Launch Flycut on login
 #### Basics
-- Copy the same way as always.
-- Paste the same way as always.
-- Press the Main Hotkey (Shift-Command-v, by default) to access your clipboard history. Or just use the Flycut menu (that little red locker, like the one you see above.
+- Copy the same way as always. (**cmd(⌘)** + **C**)
+- Press the Main Hotkey ((**shift(⇧)** + **cmd(⌘)** + **V**) by default) to access your clipboard history. Or just use the Flycut menu (that little red locker, like the one you see above.
+- Paste the same way as always. (**cmd(⌘)** + **V**) for most recent
 
  
 
