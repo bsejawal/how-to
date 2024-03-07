@@ -44,7 +44,7 @@ delete specific stash
 ```
   git stash drop stash@{index}
 ```
-Showing Git log (history)
+## Showing Git log (history)
 ```
 git log
 git log --oneline
