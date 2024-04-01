@@ -49,3 +49,8 @@ delete specific stash
 git log
 git log --oneline
 ```
+
+## Remove a git commit which has not been pushed
+```
+git reset HEAD~1
+```
