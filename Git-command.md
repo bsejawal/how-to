@@ -58,4 +58,4 @@ git reset HEAD~1
 ```
 git show --name-only [commit_hash]
 ```
-(to get a commit_hash use following [git log](showing-git-log-(history)))
+(to get a commit_hash use following [git log](#showing-git-log-(history)))
