@@ -54,3 +54,8 @@ git log --oneline
 ```
 git reset HEAD~1
 ```
+## How to list all files in a commit in git
+```
+git show --name-only [commit_hash]
+```
+(to get a commit_hash use following [git log](showing-git-log-(history)))
