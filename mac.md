@@ -7,7 +7,7 @@ Flycut allows multiple entries on the clipboard.
 ##### Configuration
 - Open "System Setting" in Mac -> Privacy & Security -> Accessibility -> enable "Flycut" (You may have to have admin access)
 - Open Flycut -> Preferences
-  - Check Sticky Bezel (Unckeck if you want to be pasted text on releasing command(⌘) key)
+  - Check Sticky Bezel (Unckeck if you want to paste text on releasing command(⌘) key)
   - Check Launch Flycut on login
 #### Basics
 - Copy the same way as always. (**cmd(⌘)** + **C**)
