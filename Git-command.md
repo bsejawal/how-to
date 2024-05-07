@@ -50,7 +50,7 @@ git log
 git log --oneline
 ```
 
-## Remove a git commit which has not been pushed
+## Remove a git commit which has not been pushed(for only one commit)
 ```
 git reset HEAD~1
 ```
