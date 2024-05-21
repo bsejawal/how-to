@@ -5,3 +5,6 @@ Mac command for Vim editor
 - :q - quit.
 - :x - write file, then quit.
 - u - undo last edit.
+2. Find and Find/replace
+  - ``` /Search Text Goes here ``` to find next press ``` n ``` and ``` shift + n ``` for backward
+  - ``` :%s/search/replace/g ``` s-> for search, g-> global
