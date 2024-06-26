@@ -24,7 +24,7 @@ git reset
 git reset --hard
 git diff
 git branch -d <branch name>
-git branch -D <branch name> // forcefully delete branch
+git branch -D <branch name> //forcefully delete branch
 ```
 
 ## git stash
@@ -64,4 +64,6 @@ git show --name-only [commit_hash]
 ```
 git branch -m old-branch-name new-branch-name
 git push origin :old-branch-name new-branch-name
+git push --set-upstream origin new-branch-name
+git branch -vv //to verify
 ```
