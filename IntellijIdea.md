@@ -24,7 +24,7 @@ Mac key and their symbol
 | 15 | Column Selection Mode (Vertical Selection) | **shift(⇧)** + **cmd(⌘)** + **8**  | |
 | 16 | Go to a line number  | **cmd(⌘)** + **L**  | |
 | 17 | Collapse All in a file  | **cmd(⌘)** + **-**  | |
-| 17 | Expand All in a file  | **cmd(⌘)** + **+**  | |
+| 18 | Expand All in a file  | **cmd(⌘)** + **+**  | |
 
 ### Code With Me
 #### How to Start
