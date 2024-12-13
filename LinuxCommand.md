@@ -39,7 +39,7 @@ it will find all the occurrence in present working directory
 ``` sudo  iptables -t nat -L ```
 
 ### encrypt ec2 instance
-cryptsetup create enc-ebs /dev/xvdc --verbose --cipher "aes-cbc-essiv:sha256"
+``` cryptsetup create enc-ebs /dev/xvdc --verbose --cipher "aes-cbc-essiv:sha256" ```
 
 ### mount EBS volume in EC2 instance in AWS after attaching from web console
 ``` mount /dev/mapper/enc-ebs /ebs ```
