@@ -1,3 +1,4 @@
+
 - ./gradlew --refresh-dependencies
 - ./gradlew clean build
 - ./gradlew :services:service-name:bootRun -Dspring.profiles.active=local
