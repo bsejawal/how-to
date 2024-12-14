@@ -1,4 +1,26 @@
+### Install Gradle 
+```
+https://gradle.org/install/
+```
 
+-  install with package manager SDKMAN
+  ``` sdk install gradle 8.11.1 ```
+  
+- OR install with package manager brew
+  ``` brew install gradle ```
+
+- Install Manually
+  ```
+  download from https://gradle.org/releases/
+  click on complete and unzip
+  mkdir /opt/gradle
+  unzip -d /opt/gradle gradle-8.11.1-bin.zip
+  add following to the .zshenv file
+  vim ~/.zshenv
+  export PATH=$PATH:/opt/gradle/gradle-8.11.1/bin
+  ```
+
+-  
 - ./gradlew --refresh-dependencies
 - ./gradlew clean build
 - ./gradlew :services:service-name:bootRun -Dspring.profiles.active=local
