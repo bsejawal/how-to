@@ -20,7 +20,10 @@ https://gradle.org/install/
   export PATH=$PATH:/opt/gradle/gradle-8.11.1/bin
   ```
 
--  
+### Gradle command
+- create a project
+  ```
+  ```
 - ./gradlew --refresh-dependencies
 - ./gradlew clean build
 - ./gradlew :services:service-name:bootRun -Dspring.profiles.active=local
