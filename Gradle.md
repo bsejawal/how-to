@@ -25,9 +25,15 @@ https://gradle.org/install/
   ```
   gradle init
   ```
-- ./gradlew --refresh-dependencies
+- list all the dependencies
+  ```
+./gradlew --refresh-dependencies
+  ```
 - ./gradlew clean build
-- ./gradlew :services:service-name:bootRun -Dspring.profiles.active=local
+- in multi module project run single service/app with particular profirle
+```
+./gradlew :services:service-name:bootRun -Dspring.profiles.active=local
+```
 
 run with multiple active profile and on specific port
 - ./gradlew :services:service-name:bootRun --args='--spring.profiles.active=local,secret,local-load-test  --server.port=8087'
