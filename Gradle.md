@@ -25,12 +25,9 @@ https://gradle.org/install/
   ```
   gradle init
   ```
-- list all the dependencies
-  ```
-./gradlew --refresh-dependencies
-  ```
+- list all the dependencies ``` ./gradlew --refresh-dependencies ```
 - ./gradlew clean build
-- in multi module project run single service/app with particular profirle
+- in multi module project, run single service/app with specific profile
 ```
 ./gradlew :services:service-name:bootRun -Dspring.profiles.active=local
 ```
