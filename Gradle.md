@@ -23,6 +23,7 @@ https://gradle.org/install/
 ### Gradle command
 - create a project
   ```
+  gradle init
   ```
 - ./gradlew --refresh-dependencies
 - ./gradlew clean build
