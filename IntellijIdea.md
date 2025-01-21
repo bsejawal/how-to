@@ -31,3 +31,6 @@ Mac key and their symbol
 - Toos -> Code With Me -> Start Session... -> Star Session
 #### How to End
 - Toos -> Code With Me -> End Session
+
+## Plugins 
+- Lombok
