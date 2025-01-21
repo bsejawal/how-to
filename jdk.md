@@ -1,4 +1,7 @@
-## how to change Java version in Mac Os after installing multiple version of JDK
+## To know java home location in mac
+``` /usr/libexec/java_home -v15 ```
+
+## how to change Java version in Mac OS after installing multiple version of JDK
 1. Right click on Finder -> Go to Folder...
 2. type "/Library" and hit Enter
 3. go to "/Library/Java/JavaVirtualMachines/". There you will see multiple folder which represent each java version. 
