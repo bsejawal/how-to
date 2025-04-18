@@ -27,8 +27,23 @@
     String name;
     List<Department> departments;
    }
+   
    class Department {
     int departmentId;
     String name;
+   }
+   
+   public class Main {
+    public static void main(String[] args) {
+        Department d1 = new Department(100, "HR");
+        Department d2 = new Department(200, "Finance");
+        Department d3 = new Department(300, "IT");
+
+        Employee e1 = new Employee("Alice", Arrays.asList(d1, d2));
+        Employee e2 = new Employee("Bob", Arrays.asList(d2, d3));
+        Employee e3 = new Employee("Charlie", Arrays.asList(d1));
+
+        List<Employee> employees = Arrays.asList(e1, e2, e3);
+   // write your answer here
    }
    ```
