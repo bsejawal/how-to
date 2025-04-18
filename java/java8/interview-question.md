@@ -8,12 +8,6 @@
        employees.add(new Employee("emp3", 110000));
        employees.add(new Employee("emp4", 75000));
        employees.add(new Employee("emp5", 135000));
-
-       employees.stream()
-               .sorted(Comparator.comparingInt(Employee::getSalary).reversed())
-               .limit(3)
-               .map(Employee::getName)
-               .forEach(System.out::println);
    ```
    
 2. Use Java Streams to print only the duplicate numbers from the following list:
