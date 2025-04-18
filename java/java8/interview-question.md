@@ -1,4 +1,4 @@
-1. Prnt the name of the employee whose salary is top Nth highest from a list of employee
+1. Print the name of the employee whose salary is top Nth highest from a list of employee
    ```java
 
        List<Employee> employees = new ArrayList<>();
@@ -14,4 +14,21 @@
                .limit(3)
                .map(Employee::getName)
                .forEach(System.out::println);
+   ```
+   
+2. Use Java Streams to print only the duplicate numbers from the following list:
+   ```java
+    List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 2, 5, 6, 1, 7, 8, 3);
+   ```
+
+3. Return a Employee name only whose departmentId is 100 where Employee can have many Department
+   ```java
+   class Employee {
+    String name;
+    List<Department> departments;
+   }
+   class Department {
+    int departmentId;
+    String name;
+   }
    ```
