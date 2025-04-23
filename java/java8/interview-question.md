@@ -41,3 +41,13 @@
    // write your answer here
    }
    ```
+4. Rewrite the following code using Java 8 functional programming features (like streams and lambda expressions)
+      The Goal is to compute the sum of the squares of all even numbers in the list
+   ```java
+   List<Integer> numbers = List.of(1, 2, 3, 4, 5);
+   int total = 0;
+   for (Integer i : numbers) {
+    if (i % 2 == 0)
+        total += i * i;
+   }
+   ```
