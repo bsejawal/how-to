@@ -61,3 +61,5 @@ It's mapper function produces single value for each input value.| It's mapper fu
 It is a One-To-One mapping| It is a One-To-Many mapping
 Data Transformation: From stream to stream| Data Transformation: From Stream to Stream to Stream
 Use this method when the mapper function is producing a single value for each input value | Use this method when the mapper function is producing multiple values for each input value.
+
+6. Find the total of double of even numbers from following List of Integer `` List<Integer> numbers = Arrays.asList(1,2,3,4,5,6,7,8,9,10); ``
