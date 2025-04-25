@@ -10,10 +10,13 @@
        employees.add(new Employee("emp5", 135000));
    ```
    
-2. Use Java Streams to print only the duplicate numbers from the following list:
-   ```java
-    List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 2, 5, 6, 1, 7, 8, 3);
-   ```
+2. Given a list of integers: `` List<Integer> list= Arrays.asList(10,15,8,49,25,98,98,15,32, 101, 1002) `` find out following using Stream APIs
+     1. All even numbers
+     2. double of even numbers
+     3. Numbers starting with 1
+     4. find duplicates
+     5. sort all values in descending order
+     6. find maximum value element
 
 3. Return a Employee name only whose departmentId is 100 where Employee can have many Department
    ```java
@@ -62,4 +65,4 @@ It is a One-To-One mapping| It is a One-To-Many mapping
 Data Transformation: From stream to stream| Data Transformation: From Stream to Stream to Stream
 Use this method when the mapper function is producing a single value for each input value | Use this method when the mapper function is producing multiple values for each input value.
 
-6. Find the total of double of even numbers from following List of Integer `` List<Integer> numbers = Arrays.asList(1,2,3,4,5,6,7,8,9,10); ``
+
