@@ -25,6 +25,7 @@ Mac key and their symbol
 | 16 | Go to a line number  | **cmd(⌘)** + **L**  | |
 | 17 | Collapse all in a file  | **cmd(⌘)** + **-**  | |
 | 18 | Expand all in a file  | **cmd(⌘)** + **+**  | |
+| 19 | Expand/Collapse method | **cmd(⌘)** + **shift(⇧)** NumPad **+** / **cmd(⌘)** + **shift(⇧)** NumPad **-**| |
 
 ### Code With Me
 #### How to Start
