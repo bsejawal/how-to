@@ -26,6 +26,7 @@ Mac key and their symbol
 | 17 | Collapse all in a file  | **cmd(⌘)** + **-**  | |
 | 18 | Expand all in a file  | **cmd(⌘)** + **+**  | |
 | 19 | Expand/Collapse method | **cmd(⌘)** + **shift(⇧)** NumPad **+** / **cmd(⌘)** + **shift(⇧)** NumPad **-**| |
+| 19 | Introduce Local Variable | **option(⌥)** + **cmd(⌘)** + **V**| |
 
 ### Code With Me
 #### How to Start
