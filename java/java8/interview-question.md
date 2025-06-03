@@ -19,8 +19,7 @@
                 new Employee("Grace", "HR", 5000)
         );
    ```
-   
-4. Given a list of integers: `` List<Integer> list= Arrays.asList(10,15,8,49,25,98,98,15,32, 101, 1002) `` find out following using Stream APIs
+2. Given a list of integers: `` List<Integer> list= Arrays.asList(10,15,8,49,25,98,98,15,32, 101, 1002) `` find out following using Stream APIs
      1. All even numbers
      2. double of even numbers
      3. Numbers starting with 1
@@ -28,7 +27,7 @@
      5. sort all values in descending order
      6. find maximum value element
 
-5. Return a Employee name only whose departmentId is 100 where Employee can have many Department
+3. Return a Employee name only whose departmentId is 100 where Employee can have many Department
    ```java
    class Employee {
     String name;
@@ -54,7 +53,7 @@
    // write your answer here
    }
    ```
-6. Rewrite the following code using Java 8 functional programming features (like streams and lambda expressions)
+4. Rewrite the following code using Java 8 functional programming features (like streams and lambda expressions)
       The Goal is to compute the sum of the squares of all even numbers in the list
    ```java
    List<Integer> numbers = List.of(1, 2, 3, 4, 5);
@@ -64,7 +63,7 @@
         total += i * i;
    }
    ```
-7. What is the different between map() vs flatMap()
+5. What is the different between map() vs flatMap()
 
 | map() | flatMap() |
 | :---------- | :----------|
@@ -74,5 +73,8 @@ It's mapper function produces single value for each input value.| It's mapper fu
 It is a One-To-One mapping| It is a One-To-Many mapping
 Data Transformation: From stream to stream| Data Transformation: From Stream to Stream to Stream
 Use this method when the mapper function is producing a single value for each input value | Use this method when the mapper function is producing multiple values for each input value.
+
+6. Count second most frequent word in list 
+``` List<String> list = Arrays.asList("apple", "apple", "banana", "apple", "orange", "orange", "banana", "apple", "orange", "orange") ```
 
 
