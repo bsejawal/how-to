@@ -29,6 +29,8 @@ Flycut allows multiple entries on the clipboard.
 | -- | ----------- | ----------- | --------------- |
 | 1 | Change Tab | **option(⌥)** + **cmd(⌘)** + **left arrow / right arrow** |  |
 | 2 | Close Tab | **cmd(⌘)** + **W** |  |
+| 3 | New Tab | **cmd(⌘)** + **T** |  |
+| 3 | Recently Closed Tab Re-Open | **shift(⇧)** + **cmd(⌘)** + **T** |  |
 
 
 ## How to open files in TextEdit from the Terminal in Mac OS X
