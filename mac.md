@@ -21,8 +21,8 @@ Flycut allows multiple entries on the clipboard.
 | SN | Description | Shortcut Key | Note |
 | -- | ----------- | ----------- | --------------- |
 | 1 | Enter/Exit Full-Screen Mode | **ctrl(^)** + **cmd(⌘)** + **F** |  |
-| 2 | Minimize the front window to the Dock | **cmd(⌘)** + **M** |  |
-| 2 | Minimize all windows of the front app | **option(⌥)** + **cmd(⌘)** + **M** |  |
+| 2 | Minimize the front window to the Dock (Not Fullscreen)| **cmd(⌘)** + **M** |  |
+| 3 | Minimize all windows of the front app (Not Fullscreen) | **option(⌥)** + **cmd(⌘)** + **M** |  |
 
 ### Chrome Shortcut Key
 | SN | Description | Shortcut Key | Note |
