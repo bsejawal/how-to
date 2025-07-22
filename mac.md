@@ -24,6 +24,12 @@ Flycut allows multiple entries on the clipboard.
 | 2 | Minimize the front window to the Dock | **cmd(⌘)** + **M** |  |
 | 2 | Minimize all windows of the front app | **option(⌥)** + **cmd(⌘)** + **M** |  |
 
+### Chrome Shortcut Key
+| SN | Description | Shortcut Key | Note |
+| -- | ----------- | ----------- | --------------- |
+| 1 | Change Tab | **option(⌥)** + **cmd(⌘)** + **left arrow / right arrow** |  |
+| 2 | Close Tab | **cmd(⌘)** + **W** |  |
+
 
 ## How to open files in TextEdit from the Terminal in Mac OS X
 ``
