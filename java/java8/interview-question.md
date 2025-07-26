@@ -1,26 +1,11 @@
 ## Java Stream Tricky Interview Questions
 
-1. Given the list of employee below, find out following using stream APIs
+1. Given the list of employee below, find out following using stream APIs. Use following data : [EmployeeDataBase](https://github.com/bsejawal/java8/blob/master/src/main/java/com/bsejawal/java8/stream/cheatsheet/EmployeeDataBase.java)
    1. Find name of the employee whose salary is second highest
    2. Find name of the employee whose salary is Nth highest
    3. Find the count of employee in each Department/Project where Employee can have may Department/Project
-   4. After finding count of employee in each Department print them like `` Finance=2 HR=3 IT=2 ``
-   ```java
-   class Employee {
-       private String name;
-       private String department;
-       private int salary;
-   }
-       List<Employee> employees = Arrays.asList(
-                new Employee("Alice", "HR", 5000),
-                new Employee("Bob", "IT", 7000),
-                new Employee("Charlie", "HR", 4000),
-                new Employee("David", "Finance", 4500),
-                new Employee("Eve", "IT", 7000),
-                new Employee("Frank", "Finance", 4500),
-                new Employee("Grace", "HR", 5000)
-        );
-   ```
+   4. After finding count of employee in each Department print them like
+   
 2. Given a list of integers: `` List<Integer> list= Arrays.asList(10,15,8,49,25,98,98,15,32, 101, 1002) `` find out following using Stream APIs
      1. All even numbers
      2. double of even numbers
