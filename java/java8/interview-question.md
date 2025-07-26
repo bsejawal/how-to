@@ -3,7 +3,7 @@
 1. Given the list of employee below, find out following using stream APIs
    1. Find name of the employee whose salary is second highest
    2. Find name of the employee whose salary is Nth highest
-   3. Find the count of employee in each Department
+   3. Find the count of employee in each Department/Project
    4. After finding count of employee in each Department print them like `` Finance=2 HR=3 IT=2 ``
    ```java
    class Employee {
