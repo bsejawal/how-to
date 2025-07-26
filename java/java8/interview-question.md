@@ -80,6 +80,15 @@ Use this method when the mapper function is producing a single value for each in
 ``` List<String> list = Arrays.asList("apple", "apple", "banana", "apple", "orange", "orange", "banana", "apple", "orange", "orange") ```
 
 7. You are given a String input = "abcdefgh";. Write a Java program using Java 8+ Streams to split the characters of the string into two new strings: One containing characters at even index. Another containing characters at odd index.
+8.  Write a Java stream program that takes an input array of characters, groups the repetitive characters, and returns the results in the form of a key-value pair array. The key represents the character, and the value represents the count of that character in the input array.
+<br />
+For example:
+Given the input:
+
+``` char[] input = new char[]{'a', 'a', 'b', 'b', 'c', 'c', 'c'}; ```
+
+Your program should produce the output:
+``` String[] output = {"a:2", "b:2", "c:3"}; ``` 
 
 
 
