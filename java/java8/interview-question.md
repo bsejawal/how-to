@@ -77,4 +77,7 @@ Use this method when the mapper function is producing a single value for each in
 6. Count second most frequent word in list 
 ``` List<String> list = Arrays.asList("apple", "apple", "banana", "apple", "orange", "orange", "banana", "apple", "orange", "orange") ```
 
+7. You are given a String input = "abcdefgh";. Write a Java program using Java 8+ Streams to split the characters of the string into two new strings: One containing characters at even index. Another containing characters at odd index.
+
+
 
