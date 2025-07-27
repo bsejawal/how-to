@@ -14,18 +14,17 @@
      4. find duplicates
      5. sort all values in descending order
      6. find maximum value element
+     7. Compute the sum of squares of all even numbers in the list
+      ```
+      imperative code look like this, you need to convert to java8 stream:
+      int total = 0;
+      for (Integer i : numbers) {
+      if (i % 2 == 0)
+           total += i * i;
+      }
+      ```
 
-3. Rewrite the following code using Java 8 functional programming features (like streams and lambda expressions)
-      The Goal is to compute the sum of the squares of all even numbers in the list
-   ```java
-   List<Integer> numbers = List.of(1, 2, 3, 4, 5);
-   int total = 0;
-   for (Integer i : numbers) {
-    if (i % 2 == 0)
-        total += i * i;
-   }
-   ```
-4. What is the different between map() vs flatMap()
+3. What is the different between map() vs flatMap()
 
 | map() | flatMap() |
 | :---------- | :----------|
@@ -36,11 +35,11 @@ It is a One-To-One mapping| It is a One-To-Many mapping
 Data Transformation: From stream to stream| Data Transformation: From Stream to Stream to Stream
 Use this method when the mapper function is producing a single value for each input value | Use this method when the mapper function is producing multiple values for each input value.
 
-5. Count second most frequent word in list 
+4. Count second most frequent word in list 
 ``` List<String> list = Arrays.asList("apple", "apple", "banana", "apple", "orange", "orange", "banana", "apple", "orange", "orange") ```
 
-6. You are given a String input = "abcdefgh";. Write a Java program using Java 8+ Streams to split the characters of the string into two new strings: One containing characters at even index. Another containing characters at odd index.
-7.  Write a Java stream program that takes an input array of characters, groups the repetitive characters, and returns the results in the form of a key-value pair array. The key represents the character, and the value represents the count of that character in the input array.
+5. You are given a String input = "abcdefgh";. Write a Java program using Java 8+ Streams to split the characters of the string into two new strings: One containing characters at even index. Another containing characters at odd index.
+6.  Write a Java stream program that takes an input array of characters, groups the repetitive characters, and returns the results in the form of a key-value pair array. The key represents the character, and the value represents the count of that character in the input array.
 #####
 For example:
 Given the input:
