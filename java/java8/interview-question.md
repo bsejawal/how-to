@@ -3,7 +3,7 @@
 1. Given the list of employee below, find out following using stream APIs. Use following data : [EmployeeDataBase](https://github.com/bsejawal/java8/blob/master/src/main/java/com/bsejawal/java8/stream/cheatsheet/EmployeeDataBase.java)
    1. Find name of the employee whose salary is second highest
    2. Find name of the employee whose salary is Nth highest
-   3. Find the count of employee in each Project where Employee can have may Project
+   3. Find the count of employee in each Project where Employee can have many Project
    4. After finding count of employee in each Project print them like 'Banking System'=2, 'Healthcare Portal'=3
    5. Return a Employee name only whose projectCode is P001 where Employee can have many Projects
    
