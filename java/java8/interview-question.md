@@ -15,7 +15,8 @@
      4. find duplicates
      5. sort all values in descending order
      6. find maximum value element
-     7. Compute the sum of squares of all even numbers in the list
+     7. partition them into primes and non-primes using streams.
+     8. Compute the sum of squares of all even numbers in the list
       ```
       imperative code look like this, you need to convert to java8 stream:
       int total = 0;
