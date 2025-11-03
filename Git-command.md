@@ -49,14 +49,15 @@ delete specific stash
 git log
 git log --oneline
 ```
+#### How to list all files in a commit in git
+```
+git show --name-only [commit_hash]
+```
+
 
 ## Remove a git commit which has not been pushed(for only one commit)
 ```
 git reset HEAD~1
-```
-## How to list all files in a commit in git
-```
-git show --name-only [commit_hash]
 ```
 (to get a commit_hash use following [git log](#showing-git-log-history))
 
