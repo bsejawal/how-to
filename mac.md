@@ -14,7 +14,21 @@ Flycut allows multiple entries on the clipboard.
 - Press the Main Hotkey ((**shift(⇧)** + **cmd(⌘)** + **V**) by default) to access your clipboard history. Or just use the Flycut menu (that little red locker, like the one you see above.
 - Paste the same way as always. (**cmd(⌘)** + **V**) for most recent
 
- 
+## Mac Terminal Autocomplete from History
+Install:
+```
+brew install atuin
+```
+Then run:
+```
+atuin init zsh >> ~/.zshrc
+```
+
+Then Reload:
+```
+source ~/.zshrc
+```
+Now Press **ctrl(^)** + **R** -> interactive, searchable, ranked history with timestamps
 
 
 ### Mac Shortcut Key
