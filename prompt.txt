@@ -1,0 +1,18 @@
+Please suggest a small microservice project that uses Java 21, the latest Spring Boot, MySQL, and Podman.
+The project should include:
+
+Distributed observability: traceId, spanId, correlationId, structured logging, and MDC
+
+Monitoring
+
+Distributed transactions (Saga pattern)
+
+Multithreaded execution with proper propagation of tracing context
+
+Additionally, please provide:
+
+A step-by-step learning plan
+
+A full architecture diagram for the project
+
+My goal is to learn distributed observability and monitoring (traceId, spanId, logs, correlationId) in a multithreaded environment, along with distributed transactions.
