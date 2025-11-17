@@ -44,9 +44,9 @@ it will find all the occurrence in present working directory
 ### mount EBS volume in EC2 instance in AWS after attaching from web console
 ``` mount /dev/mapper/enc-ebs /ebs ```
 
-### Alias
-``` alias ll='ls -laG; pwd' ```
-
 ### keytool
 ``` keytool -importkeystore -srckeystore QR2015.pfx -srcstoretype pkcs12 -destkeystore clientcert.jks -deststoretype JKS ```
+
+### Alias
+``` alias ll='ls -laG; pwd' ```
 
