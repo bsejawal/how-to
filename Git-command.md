@@ -11,7 +11,6 @@ git merge <branch name>
 git clean
 git commit -m <message>
 git commit --amend
-git add
 git branch
 git config
 git fetch
@@ -25,6 +24,15 @@ git reset --hard
 git diff
 git branch -d <branch name>
 git branch -D <branch name> //forcefully delete branch
+```
+## git add
+Add all files
+```
+git add .
+```
+Add except one file(s)
+```
+git add . ':!file1.txt' ':!file2.txt' ':!path/to/file3.txt'
 ```
 
 ## git stash
