@@ -61,6 +61,30 @@ git log --oneline
 ```
 git show --name-only [commit_hash]
 ```
+## Git Commands for Merge/Pull Request File Tracking
+
+### 1. Identify Merge Commits Related to Swagger Documentation
+```bash
+git log --merges --oneline | grep branch-name
+```
+Lists all merge commits containing `branch-name` in the message.
+
+---
+
+### 2. Show Details of a Specific Merge Commit
+```bash
+git show --name-status <commit-hash>
+```
+Replace `<commit-hash>` with the commit ID (e.g., `031c47a`). Displays files changed in that merge.
+
+---
+
+### 3. Export List of Modified Files Between Two Commits
+```bash
+git diff --name-status <old-commit> <new-commit> > ~/Desktop/modified-file-list.txt
+```
+Replace `<old-commit>` and `<new-commit>` with commit IDs (e.g., `9c104ba` and `02ecag7`). Saves the list of modified files to `modified-file-list.txt`.
+
 
 
 ## Remove a git commit which has not been pushed(for only one commit)
