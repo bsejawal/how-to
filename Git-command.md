@@ -61,7 +61,7 @@ git log --oneline
 ```
 git show --name-only [commit_hash]
 ```
-## Git Commands for Merge/Pull Request File Tracking
+## Merge/Pull Request File Tracking
 
 ### 1. Identify Merge Commits Related to Swagger Documentation
 ```bash
