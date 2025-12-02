@@ -14,22 +14,21 @@ Flycut allows multiple entries on the clipboard.
 - Press the Main Hotkey ((**shift(⇧)** + **cmd(⌘)** + **V**) by default) to access your clipboard history. Or just use the Flycut menu (that little red locker, like the one you see above.
 - Paste the same way as always. (**cmd(⌘)** + **V**) for most recent
 
-## Mac Terminal Autocomplete from History
+## Mac Terminal Autocomplete from History(Zsh Plugins)
 Install:
 ```
-brew install atuin
+brew install zsh-autosuggestions zsh-syntax-highlighting
 ```
-Then run:
+Then Add to ~/.zshrc:
 ```
-atuin init zsh >> ~/.zshrc
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
 
 Then Reload:
 ```
 source ~/.zshrc
 ```
-Now Press **ctrl(^)** + **R** -> interactive, searchable, ranked history with timestamps
-
 
 ### Mac Shortcut Key
 | SN | Description | Shortcut Key | Note |
