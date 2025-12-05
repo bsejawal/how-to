@@ -1,0 +1,24 @@
+toDo
+multithreaded-tracing/
+  podman-compose.yml
+  README.md
+  .gitignore
+  pom.xml                      <-- Root aggregator (parent)
+  bom/
+    pom.xml                    <-- Dependency management (BOM)
+  common/
+    pom.xml                    <-- Shared library (jar)
+    src/main/java/com/bsejawal/common/TracingConfig.java
+    src/main/resources/application.yml
+  gateway-svc/
+    pom.xml
+    src/main/java/com/bsejawal/gateway/...
+    src/main/resources/application.yml
+  order-svc/
+    pom.xml
+    src/main/java/com/bsejawal/order/...
+    src/main/resources/application.yml
+  payment-svc/
+    pom.xml
+    src/main/java/com/bsejawal/payment/...
+    src/main/resources/application.yml
