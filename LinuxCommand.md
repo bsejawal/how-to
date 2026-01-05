@@ -50,3 +50,20 @@ it will find all the occurrence in present working directory
 ### Alias
 ``` alias ll='ls -laG; pwd' ```
 
+
+### Run server on folder
+get your private ip address
+```
+ipconfig getifaddr en0
+```
+install python3
+```
+brew install python
+```
+run server on port 8000
+```
+python3 -m http.server 8000
+```
+browse this url in browser http://your-private-ip:8000/ 
+
+
