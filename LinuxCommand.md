@@ -8,6 +8,7 @@ example : lsof -t -i:3000
 OR in windows 
 
 netstat -ano | findstr :8080
+
 ```
 
 2. Kill Process
@@ -23,6 +24,8 @@ taskkill.exe /F /PID <pid>
 3. Kill process by port number directly
 ```
 kill -9 $(lsof -t -i:3000 -sTCP:LISTEN)
+OR
+lsof -ti:8080 | xargs kill -9
 ```
 ### To know java home location in mac
 ``` /usr/libexec/java_home -v15 ```
