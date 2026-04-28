@@ -62,4 +62,5 @@ Given the input:
 
 Your program should produce the output:
 ``` String[] output = {"a:2", "b:2", "c:3"}; ``` 
+
 8. Given a list of strings, sort them based on their length using Java Streams.
