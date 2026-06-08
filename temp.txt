@@ -1,0 +1,61 @@
+Create a one-page professional profile slide for Bhesh Raj Sejawal, a Senior Java / Full Stack Developer with around 12 years of experience.
+
+Make the slide clean, modern, ATS-friendly, and suitable for sharing with recruiters or hiring managers. Use a professional corporate layout with sections, icons, and concise bullet points. Keep everything on one slide.
+
+Slide title:
+Bhesh Raj Sejawal
+Senior Java / AWS / Microservices Developer
+
+Subtitle:
+12+ years of experience building scalable, secure, cloud-native enterprise applications
+
+Include these sections:
+
+1. Professional Summary
+- Senior Java Developer with strong experience in backend and full-stack application development.
+- Expertise in Java, Spring Boot, Spring Cloud, REST APIs, microservices, and cloud-native architecture.
+- Experienced in application modernization, Java/Spring Boot upgrades, CI/CD, containerization, and cloud deployments.
+- Strong background working in financial services, banking, payments, insurance, and enterprise platforms.
+
+2. Core Technical Skills
+Group the skills visually:
+- Languages: Java 8/11/17/21, SQL, TypeScript, JavaScript
+- Backend: Spring Boot, Spring MVC, Spring WebFlux, Spring Cloud, REST APIs, Hibernate/JPA
+- Microservices: API Gateway, Config Server, Eureka, Feign Client, Resilience4j, Circuit Breaker
+- Cloud & DevOps: AWS, Docker, Kubernetes, OpenShift, Jenkins, GitHub, CI/CD
+- Messaging: Kafka, AWS MSK, RabbitMQ
+- Databases: PostgreSQL, MySQL, MongoDB, DynamoDB, Oracle
+- Testing: JUnit, Mockito, WireMock, Integration Testing
+- Observability: Actuator, Micrometer, Prometheus, Grafana, ELK
+
+3. Experience Highlights
+- Designed and developed enterprise-grade microservices using Java, Spring Boot, and Spring Cloud.
+- Migrated applications from Spring Boot 2 to Spring Boot 3 and Java 11 to Java 17.
+- Built RESTful APIs for consumer-facing and internal enterprise applications.
+- Implemented event-driven solutions using Kafka and cloud messaging platforms.
+- Automated build and deployment pipelines using Jenkins, Docker, OpenShift, and AWS.
+- Improved system reliability using Resilience4j, logging, monitoring, and observability tools.
+
+4. Domain Experience
+Display as small badges or chips:
+Financial Services, Banking, Credit Cards, Payments, Insurance, Retail, Data Ingestion, Enterprise Applications
+
+5. Key Strengths
+- Microservices Architecture
+- Cloud-Native Development
+- API Design & Integration
+- Application Modernization
+- Production Support & Troubleshooting
+- Agile / Scrum Collaboration
+- Pair Programming
+- Code Quality & Best Practices
+
+6. Footer / Contact Placeholder
+Add placeholders for:
+Email: [your email]
+Phone: [your phone]
+Location: Dallas-Fort Worth, TX
+LinkedIn: [your LinkedIn URL]
+
+Design instructions:
+Use a professional blue, dark gray, and white color theme. Use a clean two-column layout. Put the name and title at the top. Use icons for skills, cloud, database, and domain sections. Keep the wording concise and readable. Make it look like a polished professional profile, not a resume page.
