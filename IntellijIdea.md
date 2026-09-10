@@ -19,7 +19,7 @@ Mac key and their symbol
 | 10 | Extract to the method | select all the code to extract and <br /> **cmd(⌘)** + **option(⌥)** + **M** | select all the code to extract and <br /> **ctrl** + **alt** + **M**  |
 | 11 | Duplicate line | **cmd(⌘)** + **D** | **ctrl** + **D** |
 | 12 | Remove unused imports | **ctrl(^)** + **option(⌥)** + **O** | **Ctrl** + **Alt**+**O** |
-| 13 | Reformat Code | **option(⌥)** + **cmd(⌘)** + **L** | |
+| 13 | Reformat Code | **option(⌥)** + **cmd(⌘)** + **L** | **Ctrl** + **Alt** + **L**|
 | 14 | Call hirarchy | **ctrl(^)** + **option(⌥)** + **H** | |
 | 15 | Column Selection Mode (Vertical Selection) | **shift(⇧)** + **cmd(⌘)** + **8**  | |
 | 16 | Go to a line number  | **cmd(⌘)** + **L**  | |
