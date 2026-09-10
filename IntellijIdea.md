@@ -12,7 +12,7 @@ Mac key and their symbol
 | 3 | Open Project View in left side | **cmd(⌘)** + **1 (one)** | **ctrl** + **1 (one)** |
 | 4 | Open VCS(Version Control eg: git changes list) | **cmd(⌘)** + **0 (zero)** | **ctrl + 0 (zero)** |
 | 5 | Go to the Class (go to Declaration OR usages) | **cmd(⌘)** + **B** | **ctrl** + **B** |
-| 6 | Go back to previous file/line no | **cmd(⌘)** + **[** | **ctrl** + **alt** + **[** |
+| 6 | Go back to previous file/line no | **cmd(⌘)** + **[** | **ctrl** + **alt** + **Left Arrow** |
 | 7 | Get Suggestion to import class(and many more) | **option(⌥)** + **Enter** | **alt** + **Enter** |
 | 8 | Open Recent opened file/class | **cmd(⌘)** + **E** | **ctrl** + **E** |
 | 9 | Paste From History | **cmd(⌘)** + **shift(⇧)** + **V** | **ctrl** + **⇧** + **V** |
