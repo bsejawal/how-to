@@ -28,6 +28,7 @@ Mac key and their symbol
 | 19 | Expand/Collapse method | **cmd(⌘)** + **shift(⇧)** NumPad **+** / **cmd(⌘)** + **shift(⇧)** NumPad **-**| |
 | 20 | Introduce Local Variable | **option(⌥)** + **cmd(⌘)** + **V**| |
 | 21 | Select all occurrences of the selected word | **control(^)** + **cmd(⌘)** + **G**| |
+| 22 | Jump to Source from Changes | **cmd(⌘)** + **Down Arrow(⬇)** | **F4**|
 
 ### Code With Me
 #### How to Start
