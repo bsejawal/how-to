@@ -20,7 +20,7 @@ Mac key and their symbol
 | 11 | Duplicate line | **cmd(⌘)** + **D** | **ctrl** + **D** |
 | 12 | Remove unused imports | **ctrl(^)** + **option(⌥)** + **O** | **Ctrl** + **Alt**+**O** |
 | 13 | Reformat Code | **option(⌥)** + **cmd(⌘)** + **L** | **Ctrl** + **Alt** + **L**|
-| 14 | Call hirarchy | **ctrl(^)** + **option(⌥)** + **H** | |
+| 14 | Call hirarchy | **ctrl(^)** + **option(⌥)** + **H** | **Ctrl** + **Alt** + **H** |
 | 15 | Column Selection Mode (Vertical Selection) | **shift(⇧)** + **cmd(⌘)** + **8**  | |
 | 16 | Go to a line number  | **cmd(⌘)** + **L**  | |
 | 17 | Collapse all in a file  | **cmd(⌘)** + **-**  | |
