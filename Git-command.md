@@ -1,137 +1,158 @@
-```
-git status
-git clone <repo url>
+# Git Commands Cheat Sheet
+
+A clean and practical set of commonly used Git commands.
+
+## 1) Repository Setup & Sync
+
+```bash
+git init
+git clone <repo-url>
+git remote -v
+git fetch
 git pull
 git push
-git checkout <branch name>
-git checkout -b <new branchname>
-git stash
-git stash pop
-git merge <branch name>
-git clean
-git commit -m <message>
-git commit --amend
+```
+
+## 2) Branching
+
+```bash
 git branch
-git config
-git fetch
-git init
-git log
-git rebase
-git reflog
-git remote
-git reset
-git reset --hard
-git diff
-git branch -d <branch name>
-git branch -D <branch name> //forcefully delete branch
+git checkout <branch-name>
+git checkout -b <new-branch-name>
 ```
-## git add
-Add all files
+
+### Rename a branch
+```bash
+git branch -m <old-branch-name> <new-branch-name>
+git push origin :<old-branch-name> <new-branch-name>
+git push --set-upstream origin <new-branch-name>
+git branch -vv
 ```
+
+### Delete a branch
+```bash
+git branch -d <branch-name>
+git branch -D <branch-name>  # force delete
+```
+
+## 3) Staging & Commits
+
+### Add files
+```bash
 git add .
 ```
-Add except one file(s)
-```
+
+### Add all except specific files
+```bash
 git add . ':!file1.txt' ':!file2.txt' ':!path/to/file3.txt'
 ```
 
-## git stash
-Stash the changes in a dirty working directory away
+### Commit
+```bash
+git commit -m "<message>"
+git commit --amend
 ```
-  git stash
-```
-Clear all stashes at once
-```
-  git stash clear
-```
-List all stashes
-```
-  git stash list
-```
-delete specific stash
-```
-  git stash drop stash@{index}
-```
-## Showing Git log (history)
-```
+
+## 4) Inspecting Changes & History
+
+```bash
+git status
+git diff
 git log
 git log --oneline
+git reflog
 ```
-#### How to list all files in a commit in git
-```
-git show --name-only [commit_hash]
-```
-## Merge/Pull Request File Tracking
 
-### 1. Identify Merge Commits Related to Swagger Documentation
+### List files changed in a specific commit
 ```bash
-git log --merges --oneline | grep branch-name
+git show --name-only <commit-hash>
 ```
-Lists all merge commits containing `branch-name` in the message.
 
----
+## 5) Stash Operations
 
-### 2. Show Details of a Specific Merge Commit
+```bash
+git stash
+git stash list
+git stash pop
+git stash drop stash@{<index>}
+git stash clear
+```
+
+## 6) Merge / Rebase
+
+```bash
+git merge <branch-name>
+git rebase <branch-name>
+```
+
+## 7) Reset / Cleanup (Use with Caution)
+
+> ⚠️ These commands can permanently remove local changes.
+
+```bash
+git reset
+git reset --hard
+git clean -fd
+```
+
+## 8) Remove Last Local Commit (Not Pushed)
+
+```bash
+git reset HEAD~1
+```
+
+## 9) Merge / Pull Request File Tracking
+
+### 1. Identify related merge commits
+```bash
+git log --merges --oneline | grep <branch-name>
+```
+
+### 2. Show files changed in a specific merge commit
 ```bash
 git show --name-status <commit-hash>
 ```
-Replace `<commit-hash>` with the commit ID (e.g., `031c47a`). Displays files changed in that merge.
 
----
-
-### 3. Export List of Modified Files Between Two Commits
+### 3. Export modified files between two commits
 ```bash
 git diff --name-status <old-commit> <new-commit> > ~/Desktop/modified-file-list.txt
 ```
-Replace `<old-commit>` and `<new-commit>` with commit IDs (e.g., `9c104ba` and `02ecag7`). Saves the list of modified files to `modified-file-list.txt`.
 
+## 10) Reset Local Branch to Match Remote Exactly
 
+> ⚠️ Warning: This will permanently remove:
+> - local uncommitted changes
+> - local commits not pushed
+> - untracked files (and optionally ignored files)
 
-## Remove a git commit which has not been pushed(for only one commit)
-```
-git reset HEAD~1
-```
-(to get a commit_hash use following [git log](#showing-git-log-history))
-
-## Rename branch
-```
-git branch -m old-branch-name new-branch-name
-git push origin :old-branch-name new-branch-name
-git push --set-upstream origin new-branch-name
-git branch -vv //to verify
-```
-
-## Reset Local Branch to Match Remote Exactly (Discard Local Changes + Commits)
-
-> ⚠️ Warning: This will permanently remove local uncommitted changes, local commits not pushed, and untracked files.
-
-### Step 1: Make sure you are on the correct branch
+### Step 1: Switch to the target branch
 ```bash
 git checkout <branch-name>
 ```
 
-### Step 2: Fetch latest updates from remote
+### Step 2: Fetch latest remote state
 ```bash
 git fetch origin
 ```
 
-### Step 3: Reset local branch to remote branch (remove local commits and changes)
+### Step 3: Reset local branch to remote branch
 ```bash
 git reset --hard origin/<branch-name>
 ```
 
-### Step 4: Remove untracked files and folders
+### Step 4: Remove untracked files and directories
 ```bash
 git clean -fd
 ```
 
-### Step 5 (Optional): Also remove ignored files (e.g., build/cache files)
+### Step 5 (Optional): Also remove ignored files (build/cache files)
 ```bash
 git clean -fdx
 ```
 
-### Step 6: Verify status
+### Step 6: Verify clean status
 ```bash
 git status
 ```
-You should see your branch clean and aligned with remote.
+
+You should now see a clean working tree fully aligned with remote.
