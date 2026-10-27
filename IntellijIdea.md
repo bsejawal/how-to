@@ -1,40 +1,78 @@
-# Intellij Idea keyboard short-cut cheat sheet
-Mac key and their symbol
-- **⌘** command
-- **⇧** shift
-- **^** control
-- **⌥** option
+# IntelliJ IDEA Keyboard Shortcuts Cheat Sheet
 
-| SN | Description | Mac Command | Windows Command |
-| -- | ----------- | ----------- | --------------- |
-| 1 | Open Class OR File | **cmd(⌘)** + **O**  or  **cmd(⌘)** + **shift** + **O** | **ctrl** + **N** |
-| 2 | go to file | **cmd(⌘)** + **shift(⇧)** + **O** | **ctrl** + **⇧** + **N** |
-| 3 | Open Project View in left side | **cmd(⌘)** + **1 (one)** | **ctrl** + **1 (one)** |
-| 4 | Open VCS(Version Control eg: git changes list) | **cmd(⌘)** + **0 (zero)** | **ctrl + 0 (zero)** |
-| 5 | Go to the Class (go to Declaration OR usages) | **cmd(⌘)** + **B** | **ctrl** + **B** |
-| 6 | Go back to previous file/line no | **cmd(⌘)** + **[** | **ctrl** + **alt** + **Left Arrow** |
-| 7 | Get Suggestion to import class(and many more) | **option(⌥)** + **Enter** | **alt** + **Enter** |
-| 8 | Open Recent opened file/class | **cmd(⌘)** + **E** | **ctrl** + **E** |
-| 9 | Paste From History | **cmd(⌘)** + **shift(⇧)** + **V** | **ctrl** + **⇧** + **V** |
-| 10 | Extract to the method | select all the code to extract and <br /> **cmd(⌘)** + **option(⌥)** + **M** | select all the code to extract and <br /> **ctrl** + **alt** + **M**  |
-| 11 | Duplicate line | **cmd(⌘)** + **D** | **ctrl** + **D** |
-| 12 | Remove unused imports | **ctrl(^)** + **option(⌥)** + **O** | **Ctrl** + **Alt**+**O** |
-| 13 | Reformat Code | **option(⌥)** + **cmd(⌘)** + **L** | **Ctrl** + **Alt** + **L**|
-| 14 | Call hirarchy | **ctrl(^)** + **option(⌥)** + **H** | **Ctrl** + **Alt** + **H** |
-| 15 | Column Selection Mode (Vertical Selection) | **shift(⇧)** + **cmd(⌘)** + **8**  | |
-| 16 | Go to a line number  | **cmd(⌘)** + **L**  | |
-| 17 | Collapse all in a file  | **cmd(⌘)** + **-**  | |
-| 18 | Expand all in a file  | **cmd(⌘)** + **+**  | |
-| 19 | Expand/Collapse method | **cmd(⌘)** + **shift(⇧)** NumPad **+** / **cmd(⌘)** + **shift(⇧)** NumPad **-**| |
-| 20 | Introduce Local Variable | **option(⌥)** + **cmd(⌘)** + **V**| |
-| 21 | Select all occurrences of the selected word | **control(^)** + **cmd(⌘)** + **G**| |
-| 22 | Jump to Source from Changes | **cmd(⌘)** + **Down Arrow(⬇)** | **F4**|
+A quick reference for commonly used IntelliJ IDEA shortcuts on **macOS** and **Windows/Linux**.
 
-### Code With Me
-#### How to Start
-- Toos -> Code With Me -> Start Session... -> Star Session
-#### How to End
-- Toos -> Code With Me -> End Session
+## macOS Modifier Keys
 
-## Plugins 
-- Lombok
+- **⌘** = Command
+- **⇧** = Shift
+- **⌃** = Control
+- **⌥** = Option (Alt)
+
+---
+
+## Navigation & Search
+
+| # | Action | macOS | Windows/Linux |
+|---|---|---|---|
+| 1 | Search Everywhere (class, file, symbol, action) | **Shift** (double-press) | **Shift** (double-press) |
+| 2 | Go to Class | **⌘O** | **Ctrl+N** |
+| 3 | Go to File | **⌘⇧O** | **Ctrl+Shift+N** |
+| 4 | Open Project tool window | **⌘1** | **Alt+1** |
+| 5 | Open Commit/Version Control tool window | **⌘0** | **Alt+0** |
+| 6 | Go to Declaration / Usages | **⌘B** | **Ctrl+B** |
+| 7 | Navigate Back | **⌘[** | **Ctrl+Alt+Left** |
+| 8 | Recent Files | **⌘E** | **Ctrl+E** |
+| 9 | Go to Line | **⌘L** | **Ctrl+G** |
+| 10 | Jump to Source (from Changes) | **⌘↓** | **F4** |
+
+---
+
+## Editing & Productivity
+
+| # | Action | macOS | Windows/Linux |
+|---|---|---|---|
+| 11 | Show Intention Actions / Quick Fix | **⌥Enter** | **Alt+Enter** |
+| 12 | Paste from History | **⌘⇧V** | **Ctrl+Shift+V** |
+| 13 | Duplicate Line | **⌘D** | **Ctrl+D** |
+| 14 | Optimize Imports (remove unused imports) | **⌃⌥O** | **Ctrl+Alt+O** |
+| 15 | Reformat Code | **⌥⌘L** | **Ctrl+Alt+L** |
+| 16 | Column Selection Mode (toggle) | **⌥⇧⌘8** | **Alt+Shift+Insert** |
+| 17 | Select all occurrences of selected word | **⌃⌘G** | **Alt+J** |
+
+---
+
+## Refactoring
+
+| # | Action | macOS | Windows/Linux |
+|---|---|---|---|
+| 18 | Extract Method | **⌥⌘M** | **Ctrl+Alt+M** |
+| 19 | Introduce Local Variable | **⌥⌘V** | **Ctrl+Alt+V** |
+| 20 | Type Hierarchy / Call Hierarchy | **⌃⌥H** | **Ctrl+Alt+H** |
+
+---
+
+## Code Folding
+
+| # | Action | macOS | Windows/Linux |
+|---|---|---|---|
+| 21 | Collapse All | **⌘-** | **Ctrl+Shift+NumPad -** |
+| 22 | Expand All | **⌘+** | **Ctrl+Shift+NumPad +** |
+| 23 | Expand / Collapse current block | **⌘⇧NumPad + / ⌘⇧NumPad -** | **Ctrl+NumPad + / Ctrl+NumPad -** |
+
+---
+
+## Code With Me
+
+### Start a session
+1. **Tools** → **Code With Me** → **Start Session...**
+2. Share the generated invite link.
+
+### End a session
+1. **Tools** → **Code With Me** → **End Session**
+
+---
+
+## Recommended Plugin
+
+- **Lombok**
