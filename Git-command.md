@@ -100,3 +100,38 @@ git push origin :old-branch-name new-branch-name
 git push --set-upstream origin new-branch-name
 git branch -vv //to verify
 ```
+
+## Reset Local Branch to Match Remote Exactly (Discard Local Changes + Commits)
+
+> ⚠️ Warning: This will permanently remove local uncommitted changes, local commits not pushed, and untracked files.
+
+### Step 1: Make sure you are on the correct branch
+```bash
+git checkout <branch-name>
+```
+
+### Step 2: Fetch latest updates from remote
+```bash
+git fetch origin
+```
+
+### Step 3: Reset local branch to remote branch (remove local commits and changes)
+```bash
+git reset --hard origin/<branch-name>
+```
+
+### Step 4: Remove untracked files and folders
+```bash
+git clean -fd
+```
+
+### Step 5 (Optional): Also remove ignored files (e.g., build/cache files)
+```bash
+git clean -fdx
+```
+
+### Step 6: Verify status
+```bash
+git status
+```
+You should see your branch clean and aligned with remote.
