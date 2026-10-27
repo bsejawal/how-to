@@ -1,52 +1,74 @@
+# macOS Tips & Shortcuts Cheat Sheet
 
-## Flycut (Clipboard manager)
-Flycut allows multiple entries on the clipboard.
+Useful macOS productivity tips, terminal setup commands, and shortcut keys.
 
-#### Install with Homebrew
-- brew install --cask flycut
-##### Configuration
-- Open "System Setting" in Mac -> Privacy & Security -> Accessibility -> enable "Flycut" (You may have to have admin access)
-- Open Flycut -> Preferences
-  - Check Sticky Bezel (Unckeck if you want to paste text on releasing command(⌘) key)
-  - Check Launch Flycut on login
-#### Basics
-- Copy the same way as always. (**cmd(⌘)** + **C**)
-- Press the Main Hotkey ((**shift(⇧)** + **cmd(⌘)** + **V**) by default) to access your clipboard history. Or just use the Flycut menu (that little red locker, like the one you see above.
-- Paste the same way as always. (**cmd(⌘)** + **V**) for most recent
+## 1) Flycut (Clipboard Manager)
 
-## Mac Terminal Autocomplete from History(Zsh Plugins)
-Install:
+Flycut keeps a history of copied text so you can paste older clipboard entries.
+
+### Install (Homebrew)
+```bash
+brew install --cask flycut
 ```
+
+### Required macOS Permission
+1. Open **System Settings** → **Privacy & Security** → **Accessibility**.
+2. Enable **Flycut**.
+
+### Recommended Flycut Preferences
+- Enable **Sticky Bezel** *(disable if you prefer paste on ⌘ key release behavior)*.
+- Enable **Launch Flycut on login**.
+
+### Basic Usage
+- Copy as usual: **⌘C**
+- Open clipboard history (default): **⇧⌘V**
+- Paste latest item as usual: **⌘V**
+
+---
+
+## 2) Terminal Autocomplete from History (Zsh Plugins)
+
+### Install plugins
+```bash
 brew install zsh-autosuggestions zsh-syntax-highlighting
 ```
-Then Add to ~/.zshrc:
-```
+
+### Add to `~/.zshrc`
+```bash
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
 
-Then Reload:
-```
+### Reload shell config
+```bash
 source ~/.zshrc
 ```
 
-### Mac Shortcut Key
-| SN | Description | Shortcut Key | Note |
-| -- | ----------- | ----------- | --------------- |
-| 1 | Enter/Exit Full-Screen Mode | **ctrl(^)** + **cmd(⌘)** + **F** |  |
-| 2 | Minimize the front window (But Not Fullscreen) to the Dock | **cmd(⌘)** + **M** |  |
-| 3 | Minimize all front windows (But Not Fullscreens)  to the Dock  | **option(⌥)** + **cmd(⌘)** + **M** |  |
+---
 
-### Chrome Shortcut Key
-| SN | Description | Shortcut Key | Note |
-| -- | ----------- | ----------- | --------------- |
-| 1 | Change Tab | **option(⌥)** + **cmd(⌘)** + **left arrow / right arrow** |  |
-| 2 | Close Tab | **cmd(⌘)** + **W** |  |
-| 3 | New Tab | **cmd(⌘)** + **T** |  |
-| 3 | Recently Closed Tab Re-Open | **shift(⇧)** + **cmd(⌘)** + **T** |  |
+## 3) macOS Window Shortcuts
 
+| # | Action | Shortcut |
+|---|---|---|
+| 1 | Enter/Exit Full Screen | **⌃⌘F** |
+| 2 | Minimize front window to Dock | **⌘M** |
+| 3 | Minimize all windows of current app | **⌥⌘M** |
 
-## How to open files in TextEdit from the Terminal in Mac OS X
-``
+---
+
+## 4) Chrome Shortcuts (macOS)
+
+| # | Action | Shortcut |
+|---|---|---|
+| 1 | Switch tab (next/previous) | **⌥⌘→ / ⌥⌘←** |
+| 2 | Close current tab | **⌘W** |
+| 3 | Open new tab | **⌘T** |
+| 4 | Reopen last closed tab | **⇧⌘T** |
+
+---
+
+## 5) Open File in TextEdit from Terminal
+
+```bash
 open -a TextEdit <filename>
-``
+```
